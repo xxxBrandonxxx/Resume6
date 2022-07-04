@@ -1,50 +1,80 @@
-body{
+body {
   font-family: sans-serif;
-  font-size:110%;
-  background-color: #FCF7F8;
+  font-size: 110%;
+  background-color: #fcf7f8;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   text-align: center;
+  background-color: navy;
+  justify-content: center;
+  text-align: center;
+  font-family: cursive;
 }
 
 footer {
   background-color: #343330;
   text-align: center;
+  padding: 1rem;
+  margin:1rem;
 }
 
-header{
-    text-align: center;
-    background-color: navy;
+#heading {
+  font-family:cursive;
+  font-size: 115%;
+  background-color: rgb(46, 216, 148);
+  padding:1rem
+
 }
 
-#heading{
-    font-family: serif;
-    font-size: 115%;
-    background-color: gray;
+#sidebar {
+  width: 20%;
+  background-color: skyblue;
+  padding: 1rem;
+  color: black;
 }
 
-
-#sidebar{
-    width: 20%;
-    background-color: skyblue;
-}
-
-.navList{
-    list-style-type: none;
+.navList {
+  list-style-type: none;
+  padding: 0%;
 }
 
 h2 {
-    font-size: 40px;
-    background-color: #ccc;
-    margin: 20px;
-    padding: 40px;
-    border-style: dashed;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: red;
-    border-radius: 10px 20px 30px 40px;
-    
+  font-size: 40px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 40px;
+  border-style: hidden;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: rgb(22, 19, 19);
+  border-radius: 10px 20px 30px 40px;
+}
+
+#profilephoto {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 3px solid pink;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+  font-family: cursive;
+}
+
+#icons{
+  width:3rem;
+  margin: 0.5rem;
+  height: auto;}
+
+  #content {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
   }
- 
